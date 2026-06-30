@@ -1,21 +1,21 @@
 {% include home-button-handler.html %}
 
-**Production Role:** {{ include.role }}
+**Production Role:** {{ page.role }}
 
-{{ include.description }}
+{{ page.description }}
 
 ### Gallery
 
-{% for image in include.images %}
-![{{ include.title }} - Scene {{ forloop.index }}]({{ image }})
+{% for image in page.images %}
+![{{ page.title }} - Scene {{ forloop.index }}]({{ image }})
 {% endfor %}
 
 ### Project Details
 
-{{ include.details }}
+{{ page.details }}
 
 **Responsibilities:**
-{% for responsibility in include.responsibilities %}
+{% for responsibility in page.responsibilities %}
 - {{ responsibility }}
 {% endfor %}
 
