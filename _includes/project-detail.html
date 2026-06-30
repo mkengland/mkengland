@@ -7,7 +7,7 @@
 ### Gallery
 
 {% for image in page.images %}
-<img src="{{ image }}" alt="{{ page.title }} - Scene {{ forloop.index }}" style="max-width: 100%; margin: 1rem 0; border-radius: 8px;">
+![{{ page.title }} - Scene {{ forloop.index }}]({{ image }})
 {% endfor %}
 
 ### Project Details
