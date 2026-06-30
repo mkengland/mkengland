@@ -1,0 +1,13 @@
+<footer class="footer">
+  <div class="container">
+    <nav class="nav  nav--footer">
+      <ul class="list list--nav">
+      {% for item in site.navigation_footer %}
+        <li class="item  item--nav">
+          <a href="#top" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;" {% if item.url == page.url %}class="active" {% endif %}>{{ item.title }}</a>
+        </li>
+      {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</footer>

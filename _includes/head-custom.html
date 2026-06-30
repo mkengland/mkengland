@@ -1,0 +1,15 @@
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Find all "Back to top" links in footer navigation
+  var footerLinks = document.querySelectorAll('.nav--footer a');
+  footerLinks.forEach(function(link) {
+    if (link.textContent.includes('Back to top')) {
+      link.href = '#';
+      link.onclick = function(e) {
+        e.preventDefault();
+        window.scrollTo({top: 0, behavior: 'smooth'});
+      };
+    }
+  });
+});
+</script>

@@ -1,0 +1,382 @@
+/* Custom Portfolio Styles */
+
+:root {
+  --primary-color: #e8ebe8;
+  --secondary-color: #dce0db;
+  --accent-color: #5a8a70;
+  --text-color: #3d4a42;
+  --text-light: #6b7a72;
+  --border-color: #d0d5d2;
+  --background-dark: #f0ede8;
+  --background-light: #eae7e2;
+}
+
+* {
+  color-scheme: dark;
+}
+
+html {
+  background: linear-gradient(135deg, #f0ede8 0%, #eae7e2 100%);
+  background-attachment: fixed;
+}
+
+
+html, body {
+  background-color: var(--background-dark);
+  color: var(--text-color);
+}
+
+body {
+  background: linear-gradient(135deg, #f0ede8 0%, #eae7e2 100%);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+/* Main content width */
+body > * {
+  max-width: none !important;
+  padding-left: 0 !important;
+  padding-right: 3rem !important;
+  margin-left: -2rem !important;
+}
+
+.wrapper {
+  max-width: none !important;
+  padding-left: 0 !important;
+  padding-right: 3rem !important;
+  margin-left: -2rem !important;
+}
+
+main {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 1rem !important;
+  padding-right: 3rem !important;
+  margin-left: -2rem !important;
+}
+
+article, .page {
+  max-width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.container {
+  max-width: 100% !important;
+  padding-left: 1rem !important;
+  padding-right: 3rem !important;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-color);
+  border-bottom-color: var(--accent-color) !important;
+}
+
+a {
+  color: var(--accent-color);
+}
+
+a:visited {
+  color: #4a7a60;
+}
+
+a:hover {
+  color: #3a6a50;
+}
+
+/* Navigation */
+.site-header {
+  position: relative !important;
+}
+
+.nav--header {
+  background-color: transparent !important;
+  border-bottom: none !important;
+  position: fixed !important;
+  right: 2rem !important;
+  top: 50% !important;
+  left: auto !important;
+  transform: translateY(-50%) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 1.5rem !important;
+  z-index: 1000 !important;
+  width: auto !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+}
+
+.nav--header ul {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 1.5rem !important;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.nav--header li {
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.nav--header a {
+  color: var(--text-color) !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+  padding: 0.5rem 1rem !important;
+  border-right: 3px solid var(--accent-color) !important;
+  transition: all 0.3s ease !important;
+  text-align: right !important;
+  display: block !important;
+  margin: 0 !important;
+  padding-right: 1rem !important;
+  white-space: nowrap !important;
+}
+
+.nav--header a:hover {
+  color: var(--accent-color) !important;
+  padding-right: 1.5rem !important;
+}
+
+/* Resume Styling */
+.resume-section {
+  background-color: var(--background-light);
+  border-left: 4px solid var(--accent-color);
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 4px;
+}
+
+.resume-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+}
+
+.resume-title {
+  color: var(--accent-color);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.resume-subtitle {
+  color: var(--text-light);
+  font-style: italic;
+  font-size: 0.95rem;
+}
+
+.resume-date {
+  color: var(--text-light);
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.resume-company {
+  color: var(--text-color);
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.resume-position {
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.resume-description {
+  color: var(--text-light);
+  margin: 0.75rem 0;
+  line-height: 1.6;
+}
+
+.resume-description ul {
+  margin-left: 1.5rem;
+  color: var(--text-light);
+}
+
+.resume-description li {
+  margin-bottom: 0.5rem;
+  color: var(--text-light);
+}
+
+.resume-skill-category {
+  margin: 1rem 0;
+}
+
+.resume-skill-category strong {
+  color: var(--accent-color);
+}
+
+/* Contact Info */
+.contact-info {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact-info p {
+  color: var(--text-light);
+  margin: 0.25rem 0;
+}
+
+.contact-info a {
+  color: var(--accent-color);
+}
+
+/* Cards and containers */
+.card {
+  background-color: var(--background-light);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+}
+
+.card:hover {
+  border-color: var(--accent-color);
+  box-shadow: 0 4px 12px rgba(90, 138, 112, 0.2);
+}
+
+/* Footer */
+.site-footer {
+  background-color: var(--primary-color);
+  border-top: 2px solid var(--accent-color);
+  color: var(--text-light);
+}
+
+.site-footer a {
+  color: var(--accent-color);
+}
+
+/* Hide copyright */
+.copyright {
+  display: none !important;
+}
+
+/* Forms and inputs */
+input, textarea, select {
+  background-color: var(--background-light);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: var(--accent-color);
+  background-color: var(--secondary-color);
+}
+
+/* Code blocks */
+code {
+  background-color: var(--background-light);
+  color: var(--accent-color);
+  border: 1px solid var(--border-color);
+}
+
+pre {
+  background-color: var(--background-light);
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+}
+
+/* Tables */
+table {
+  border-color: var(--border-color);
+}
+
+th {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  border-color: var(--border-color);
+}
+
+td {
+  border-color: var(--border-color);
+  color: var(--text-light);
+}
+
+/* Blockquotes */
+blockquote {
+  border-left-color: var(--accent-color);
+  color: var(--text-light);
+}
+
+/* Page layout adjustments */
+.page > * {
+  max-width: 100%;
+}
+
+/* Ensure images are responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header styling */
+.site-header {
+  background-color: var(--primary-color);
+  border-bottom: 2px solid var(--accent-color);
+}
+
+.site-header-title {
+  color: var(--text-color);
+}
+
+.site-header-subtitle {
+  color: var(--text-light);
+}
+
+/* Feature text and images */
+.feature-text {
+  color: var(--text-color);
+}
+
+.feature-image {
+  opacity: 0.9;
+}
+
+/* Home button */
+body::before {
+  content: 'Madison England';
+  position: fixed;
+  left: 1.5rem;
+  top: 1.5rem;
+  background-color: #e8ebe8;
+  border-radius: 2px;
+  border-right: 2px solid #5a8a70;
+  z-index: 998;
+  pointer-events: none;
+  color: transparent;
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 0.6rem 1rem;
+  line-height: 1.4;
+}
+
+body::after {
+  content: 'Madison England';
+  position: fixed;
+  left: 1.5rem;
+  top: 1.5rem;
+  color: #3d4a42;
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 0.6rem 1rem;
+  z-index: 999;
+  cursor: pointer;
+  line-height: 1.4;
+  pointer-events: auto;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+/* Hide on home page */
+body.madison-england::before,
+body.madison-england::after {
+  display: none !important;
+  pointer-events: none !important;
+}

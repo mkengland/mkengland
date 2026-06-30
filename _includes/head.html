@@ -1,0 +1,10 @@
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Add home button in top left
+  var homeBtn = document.createElement('a');
+  homeBtn.href = '/';
+  homeBtn.textContent = 'ME';
+  homeBtn.style.cssText = 'position: fixed; left: 1.5rem; top: 1.5rem; text-decoration: none; color: #3d4a42; font-weight: 700; font-size: 0.95rem; padding: 0.5rem 1rem; border-right: 2px solid #5a8a70; z-index: 999; background-color: #e8ebe8; border-radius: 2px;';
+  document.body.insertBefore(homeBtn, document.body.firstChild);
+});
+</script>

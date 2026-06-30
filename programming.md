@@ -1,0 +1,19 @@
+---
+title: Projects
+layout: page
+---
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.body.addEventListener('click', function(e) {
+    // Clickable area covers the entire "Madison England" button with green background
+    if (e.clientX >= 24 && e.clientX < 260 && e.clientY >= 24 && e.clientY < 75) {
+      window.location.href = '/';
+    }
+  });
+});
+</script>
+
+- [Project 1](#)
+- [Project 2](#)
+- [Project 3](#)
