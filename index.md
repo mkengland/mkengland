@@ -7,7 +7,7 @@ layout: page
 
 <div style="display: flex; gap: 2rem; align-items: flex-start;">
 <div style="flex-shrink: 0;">
-<img src="{{ '/assets/images/profile.jpeg' | relative_url }}" alt="Profile Photo" style="border-radius: 8px; width: 250px; height: 250px; object-fit: cover;">
+<img src="https://picsum.photos/300/300?image=433" alt="Profile Photo" style="border-radius: 8px; width: 250px; height: 250px; object-fit: cover;">
 </div>
 
 <div>
