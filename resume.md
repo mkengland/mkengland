@@ -3,18 +3,9 @@ title: Resume
 layout: page
 ---
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  document.body.addEventListener('click', function(e) {
-    // Clickable area covers the entire "Madison England" button with green background
-    if (e.clientX >= 24 && e.clientX < 260 && e.clientY >= 24 && e.clientY < 75) {
-      window.location.href = '/';
-    }
-  });
-});
-</script>
+{% include home-button-handler.html %}
 
-<p style="margin: 0.25rem 0; line-height: 1.2;"><em>Education</em></p>
+{% include resume-section-header.html title="Education" %}
 <p style="margin: 0.15rem 0; line-height: 1.2;"><strong>Carnegie Mellon University</strong> (Honors: Dean's List)</p>
 <div style="margin-left: 2rem; margin: 0.1rem 0; line-height: 1.2;">
 <p style="margin: 0.1rem 0; line-height: 1.2;"><em>Master of Arts Management</em> | Expected 2028</p>
@@ -23,36 +14,14 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 <p style="margin: 0.15rem 0; margin-top: 0.5rem; line-height: 1.2;"><strong>Trinity School NYC</strong> (Honors: Lowsen Prize in Mathematics, Bonsall Memorial Prize in Latin) | May 2023</p>
 
-<p style="margin: 0.25rem 0; margin-top: 0.75rem; line-height: 1.2;"><em>Experience</em></p>
+{% include resume-section-header.html title="Experience" top-margin="0.75rem" %}
 <p style="margin: 0.15rem 0; line-height: 1.2;"><strong>Scotch'n'Soda Theatre</strong></p>
 
-<div style="margin-left: 1.5rem;">
-<p style="margin: 0.15rem 0; line-height: 1.2;"><strong>Technical Coordinator (Board of Directors)</strong> | 2025 to 2026</p>
-<ul style="margin: 0.1rem 0 0.5rem 1rem; line-height: 1.2; padding-left: 1.5rem;">
-<li style="margin: 0.05rem 0; line-height: 1.2;">Oversaw technical operations for productions with budgets up to $20,000</li>
-<li style="margin: 0.05rem 0; line-height: 1.2;">Directed recruitment and mentorship of 15+ staff</li>
-<li style="margin: 0.05rem 0; line-height: 1.2;">Managed equipment and facilities</li>
-<li style="margin: 0.05rem 0; line-height: 1.2;">Organized events of 60+ people</li>
-</ul>
-</div>
+{% include resume-job-entry.html title="Technical Coordinator (Board of Directors)" date="2025 to 2026" bullets="<li style=\"margin: 0.05rem 0; line-height: 1.2;\">Oversaw technical operations for productions with budgets up to $20,000</li><li style=\"margin: 0.05rem 0; line-height: 1.2;\">Directed recruitment and mentorship of 15+ staff</li><li style=\"margin: 0.05rem 0; line-height: 1.2;\">Managed equipment and facilities</li><li style=\"margin: 0.05rem 0; line-height: 1.2;\">Organized events of 60+ people</li>" %}
 
-<div style="margin-left: 1.5rem;">
-<p style="margin: 0.15rem 0; line-height: 1.2;"><strong>Production Manager</strong> | 2024 to 2026</p>
-<ul style="margin: 0.1rem 0 0.5rem 1rem; line-height: 1.2; padding-left: 1.5rem;">
-<li style="margin: 0.05rem 0; line-height: 1.2;">Head of tech on productions of <em>Horse Girls</em> and <em>These Shining Lives</em></li>
-<li style="margin: 0.05rem 0; line-height: 1.2;">Scheduled deliverable meetings and coordinated a budget of $4,000</li>
-<li style="margin: 0.05rem 0; line-height: 1.2;">Hosted full production events of 70+ people</li>
-</ul>
-</div>
+{% include resume-job-entry.html title="Production Manager" date="2024 to 2026" bullets="<li style=\"margin: 0.05rem 0; line-height: 1.2;\">Head of tech on productions of <em>Horse Girls</em> and <em>These Shining Lives</em></li><li style=\"margin: 0.05rem 0; line-height: 1.2;\">Scheduled deliverable meetings and coordinated a budget of $4,000</li><li style=\"margin: 0.05rem 0; line-height: 1.2;\">Hosted full production events of 70+ people</li>" %}
 
-<div style="margin-left: 1.5rem;">
-<p style="margin: 0.15rem 0; line-height: 1.2;"><strong>Costumes Tech Resident</strong> | 2023 to 2026</p>
-<ul style="margin: 0.1rem 0 0.75rem 1rem; line-height: 1.2; padding-left: 1.5rem;">
-<li style="margin: 0.05rem 0; line-height: 1.2;">Implemented and designed costumes for productions of <em>Beyond Us</em>, <em>Oklahoma!</em>, <em>Into the Woods</em>, and <em>Everybody</em></li>
-<li style="margin: 0.05rem 0; line-height: 1.2;">Managed fittings, created pieces, and ran backstage crew</li>
-<li style="margin: 0.05rem 0; line-height: 1.2;">Maintained costume inventory and year-long budget of $1,500</li>
-</ul>
-</div>
+{% include resume-job-entry.html title="Costumes Tech Resident" date="2023 to 2026" bullets="<li style=\"margin: 0.05rem 0; line-height: 1.2;\">Implemented and designed costumes for productions of <em>Beyond Us</em>, <em>Oklahoma!</em>, <em>Into the Woods</em>, and <em>Everybody</em></li><li style=\"margin: 0.05rem 0; line-height: 1.2;\">Managed fittings, created pieces, and ran backstage crew</li><li style=\"margin: 0.05rem 0; line-height: 1.2;\">Maintained costume inventory and year-long budget of $1,500</li>" %}
 
 <p style="margin: 0.15rem 0; line-height: 1.2;"><strong>Carnegie Mellon University</strong></p>
 <div style="margin-left: 1.5rem;">
@@ -116,13 +85,13 @@ document.addEventListener('DOMContentLoaded', function() {
 </ul>
 </div>
 
-<p style="margin: 0.15rem 0; line-height: 1.2;"><strong>Shop Repurpose</strong>, Upcycling Specialist | 2022</p>
+{% include resume-simple-job.html title="Shop Repurpose, Upcycling Specialist" date="2022" %}
 
-<p style="margin: 0.15rem 0; line-height: 1.2;"><strong>Tailoring for Tommy Hilfiger</strong> (New York Fashion Week) | 2022</p>
+{% include resume-simple-job.html title="Tailoring for Tommy Hilfiger (New York Fashion Week)" date="2022" %}
 
-<p style="margin: 0.15rem 0; line-height: 1.2;"><strong>Ballet Tech Showcase</strong>, Consultant Work (Costumes) | 2022</p>
+{% include resume-simple-job.html title="Ballet Tech Showcase, Consultant Work (Costumes)" date="2022" %}
 
-<p style="margin: 0.25rem 0; margin-top: 0.75rem; line-height: 1.2;"><em>Skills</em></p>
+{% include resume-section-header.html title="Skills" top-margin="0.75rem" %}
 <div style="margin-left: 1.5rem;">
 <p style="margin: 0.1rem 0; line-height: 1.2;"><strong>Languages:</strong> English (fluent), Italian (proficient)</p>
 <p style="margin: 0.1rem 0; line-height: 1.2;"><strong>Technical:</strong> Python, C, SML, R, Praat, HTML, Microsoft Office Suite</p>

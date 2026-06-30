@@ -1,0 +1,22 @@
+{% include home-button-handler.html %}
+
+**Production Role:** {{ include.role }}
+
+{{ include.description }}
+
+### Gallery
+
+{% for image in include.images %}
+![{{ include.title }} - Scene {{ forloop.index }}]({{ image }})
+{% endfor %}
+
+### Project Details
+
+{{ include.details }}
+
+**Responsibilities:**
+{% for responsibility in include.responsibilities %}
+- {{ responsibility }}
+{% endfor %}
+
+[Back to Performing Arts]({{ "/performing-arts/" | relative_url }})
