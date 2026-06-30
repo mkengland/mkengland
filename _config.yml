@@ -22,7 +22,7 @@ plugins:
 
 # Site settings
 url: 'https://mydomain.com'
-baseurl: ''
+baseurl: '/mkengland'
 title: 'Madison England'
 description: 'Portfolio | Performing Arts & Programming'
 permalink: pretty
