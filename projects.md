@@ -5,6 +5,6 @@ layout: page
 
 {% include home-button-handler.html %}
 
-- [Project 1](#)
-- [Project 2](#)
-- [Project 3](#)
+- [Expense Tracker](#)
+- [Uncanny Valley of LLM Speech](#)
+- [Santorini Game Implementation](#)

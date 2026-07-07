@@ -2,7 +2,7 @@
 title: Alice by Heart
 layout: page
 role: Technical Director
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+description: A contemporary musical reimagining of Lewis Carroll's Alice in Wonderland, following Alice as she navigates a fantastical world of music and wonder. 
 images:
   - /assets/show-photos/ABH/DSC00195.jpg
   - /assets/show-photos/ABH/DSC00229.jpg
@@ -11,11 +11,10 @@ images:
   - /assets/show-photos/ABH/DSC06207.jpg
   - /assets/show-photos/ABH/DSC06483.jpg
   - /assets/show-photos/ABH/DSC06545.jpg
-details: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+details: 
 responsibilities:
-  - Costume design and implementation
-  - Fitting management
-  - Backstage crew coordination
+  - Oversee all technical aspects of the show
+  - Liaise with university administration to ensure safe implementation of set and light rigging
 ---
 
 {% include project-detail.html %}

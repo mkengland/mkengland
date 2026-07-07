@@ -2,7 +2,7 @@
 title: These Shining Lives
 layout: page
 role: Technical Director
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+description: A historical drama about four women who worked with radium paint in the early 20th century and fought for worker's rights. The play weaves together their personal stories as they discover the deadly consequences of their work. 
 images:
   - /assets/show-photos/TSL/DSC_2331.jpg
   - /assets/show-photos/TSL/DSC_2334.jpg
@@ -10,7 +10,7 @@ images:
   - /assets/show-photos/TSL/DSC_2354.jpg
   - /assets/show-photos/TSL/DSC_2451.jpg
   - /assets/show-photos/TSL/DSC_2868.jpg
-details: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+details: 
 responsibilities:
   - Head of technical operations
   - Budget coordination ($4,000)

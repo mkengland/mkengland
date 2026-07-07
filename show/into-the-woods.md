@@ -2,7 +2,7 @@
 title: Into the Woods
 layout: page
 role: Costume Implementer
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+description: A dark fairy tale musical that follows various fairy tale characters as they pursue their wishes. Explores themes of good and evil, family, and home with Sondheim's staged wit.
 images:
   - /assets/show-photos/ITW/IMG_0174.jpeg
   - /assets/show-photos/ITW/IMG_0226__1_.jpeg
@@ -11,9 +11,9 @@ images:
   - /assets/show-photos/ITW/IMG_0423.jpeg
   - /assets/show-photos/ITW/IMG_0535.jpeg
   - /assets/show-photos/ITW/IMG_1313.jpeg
-details: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+details: 
 responsibilities:
-  - Costume design and implementation
+  - Costume implementation
   - Fitting management
   - Backstage crew coordination
 ---
