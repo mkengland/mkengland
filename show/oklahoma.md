@@ -1,7 +1,7 @@
 ---
 title: Oklahoma!
 layout: page
-role: Costumes Tech Resident
+role: Costume Designer and Implementer
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 images:
   - /assets/show-photos/OK/ali_ado_and_will.jpg

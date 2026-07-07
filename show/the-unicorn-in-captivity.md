@@ -1,7 +1,7 @@
 ---
 title: The Unicorn in Captivity
 layout: page
-role: Costumes Tech Resident
+role: Technical Coordinator
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 images:
   - /assets/show-photos/TUIC/01.png

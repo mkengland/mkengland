@@ -1,7 +1,7 @@
 ---
 title: Into the Woods
 layout: page
-role: Costumes Tech Resident
+role: Costume Implementer
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 images:
   - /assets/show-photos/ITW/IMG_0174.jpeg

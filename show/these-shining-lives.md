@@ -1,7 +1,7 @@
 ---
 title: These Shining Lives
 layout: page
-role: Production Manager
+role: Technical Director
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 images:
   - /assets/show-photos/TSL/DSC_2331.jpg

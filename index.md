@@ -7,12 +7,12 @@ layout: page
 
 <div style="display: flex; gap: 2rem; align-items: flex-start;">
 <div style="flex-shrink: 0;">
-<img src="https://picsum.photos/300/300?image=433" alt="Profile Photo" style="border-radius: 8px; width: 250px; height: 250px; object-fit: cover;">
+<img src="{{ '/assets/IMG_5145.png' | relative_url }}" alt="Profile Photo" style="border-radius: 8px; width: 250px; height: 250px; object-fit: cover;">
 </div>
 
 <div>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Hi! I'm Madison :) <br><br>
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I'm a student at Carnegie Mellon University pursuing a B.S. in Computer Science, a B.A. in Linguistics, and a Master of Arts Management degree. I'm interested in natural languages processing and the intersection of performing arts and technology. My background spans from costume design and production management to teaching computer science and conducting research in language technologies—bridging the gap between creative industries and computational thinking.
 </div>
 </div>
