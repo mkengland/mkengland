@@ -21,10 +21,10 @@ plugins:
 - jekyll-remote-theme
 
 # Site settings
-url: 'https://mydomain.com'
+url: 'https://madisonkengland.com'
 baseurl: '/mkengland'
 title: 'Madison England'
-description: 'Portfolio | Performing Arts & Programming'
+description: 'Portfolio'
 permalink: pretty
 
 # Pagination
@@ -39,13 +39,11 @@ navigation_header:
   url: /performing-arts/
 - title: Projects
   url: /projects/
-- title: Resume
-  url: /resume/
+- title: CV
+  url: /cv/
 
-# Footer nav
-navigation_footer:
-- title: Back to home
-  url: "#top"
+# Footer nav (empty: no footer links)
+navigation_footer: []
 
 # Collection settings
 defaults:

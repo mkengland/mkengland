@@ -4,19 +4,17 @@
 
 {{ page.description }}
 
+**Responsibilities:**
+{% for responsibility in page.responsibilities %}
+- {{ responsibility }}
+{% endfor %}
+
 ### Gallery
 
 {% for image in page.images %}
 <img src="{{ image | relative_url }}" alt="{{ page.title }} - Scene {{ forloop.index }}" style="max-width: 100%; margin: 1rem 0; border-radius: 8px;">
 {% endfor %}
 
-### Project Details
+### Project-Specific Comments
 
 {{ page.details }}
-
-**Responsibilities:**
-{% for responsibility in page.responsibilities %}
-- {{ responsibility }}
-{% endfor %}
-
-[Back to Performing Arts]({{ "/performing-arts/" | relative_url }})
