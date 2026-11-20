@@ -2,7 +2,7 @@
 title: These Shining Lives
 layout: page
 role: Technical Director
-description: Based on the true life of Catherine Donohue and the Radium Girls. These are the memories of the brave young women who stepped out into the workforce, made their own money, and began to shine in the dark. These women who painted the luminous faces of watches and clocks discover the thrill of independence and working camaraderie, and then uncover a chilling truth that will forever change their lives, their town, and the world. As their story runs its course they have to make a choice: stand up for themselves and the other women who gave their lives to this company, or fade quietly into time.
+description: "Based on the true life of Catherine Donohue and the Radium Girls. These are the memories of the brave young women who stepped out into the workforce, made their own money, and began to shine in the dark. These women who painted the luminous faces of watches and clocks discover the thrill of independence and working camaraderie, and then uncover a chilling truth that will forever change their lives, their town, and the world. As their story runs its course they have to make a choice: stand up for themselves and the other women who gave their lives to this company, or fade quietly into time."
 images:
   - /assets/show-photos/TSL/DSC_2331.jpg
   - /assets/show-photos/TSL/DSC_2334.jpg
