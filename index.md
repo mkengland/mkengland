@@ -1,6 +1,7 @@
 ---
 title: Madison England
 layout: page
+sitemap: true
 ---
 
 <div style="margin-bottom: 3rem;"></div>

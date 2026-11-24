@@ -1,0 +1,70 @@
+---
+layout: none
+permalink: /robots.txt
+---
+# Only the home page should appear in search results.
+# Every other page sends a "noindex" tag (see _includes/site-before-start.html).
+# The photos are blocked from all crawlers, including AI and training bots.
+
+User-agent: *
+Disallow: /assets/show-photos/
+
+# AI assistants and training crawlers
+User-agent: GPTBot
+Disallow: /assets/show-photos/
+
+User-agent: ChatGPT-User
+Disallow: /assets/show-photos/
+
+User-agent: OAI-SearchBot
+Disallow: /assets/show-photos/
+
+User-agent: ClaudeBot
+Disallow: /assets/show-photos/
+
+User-agent: Claude-Web
+Disallow: /assets/show-photos/
+
+User-agent: anthropic-ai
+Disallow: /assets/show-photos/
+
+User-agent: Google-Extended
+Disallow: /assets/show-photos/
+
+User-agent: Applebot-Extended
+Disallow: /assets/show-photos/
+
+User-agent: CCBot
+Disallow: /assets/show-photos/
+
+User-agent: PerplexityBot
+Disallow: /assets/show-photos/
+
+User-agent: Perplexity-User
+Disallow: /assets/show-photos/
+
+User-agent: Bytespider
+Disallow: /assets/show-photos/
+
+User-agent: Amazonbot
+Disallow: /assets/show-photos/
+
+User-agent: Meta-ExternalAgent
+Disallow: /assets/show-photos/
+
+User-agent: FacebookBot
+Disallow: /assets/show-photos/
+
+User-agent: cohere-ai
+Disallow: /assets/show-photos/
+
+User-agent: ImagesiftBot
+Disallow: /assets/show-photos/
+
+User-agent: Diffbot
+Disallow: /assets/show-photos/
+
+User-agent: img2dataset
+Disallow: /assets/show-photos/
+
+Sitemap: https://madisonkengland.com/sitemap.xml

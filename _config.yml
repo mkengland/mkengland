@@ -53,3 +53,4 @@ defaults:
       type: "pages"
     values:
       layout: page # Set the default layout for pages
+      sitemap: false # Only the home page goes in sitemap.xml (see index.md)
